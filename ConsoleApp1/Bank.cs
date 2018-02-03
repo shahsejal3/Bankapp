@@ -8,10 +8,8 @@ namespace BankApp
 {
     static class Bank
     {
-        public static Account CreateAccount(
-            string emailaddress,
-            AccountType typeOfAccount=AccountType.checking,
-            decimal InitialBalance=0.0M)
+        public static Account CreateAccount(string emailaddress,
+            AccountType typeOfAccount = AccountType.checking, decimal InitialBalance = 0.0M)
 
         {
             var account = new Account
